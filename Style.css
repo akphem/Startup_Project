@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+/* font-family: "DM Sans", sans-serif; */
+
+:root {
+    --dmsans: "DM Sans", sans-serif;
+    --primary-blue :#2f1893;
+    --btn-bg :#0358d7;
+
+}
+
+body {
+    padding: 4rem 6.5rem;
+    margin: 0;
+    overflow-x: hidden;
+    Box-sizing: border-box;
+    font-family: var(--dmsans);
+    background-color: var(--primary-blue);
+    color: white;
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    color:inherit;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+nav .logo {
+    font-size: 24px;
+}
+nav li button { 
+    background-color: var(--btn-bg);
+    width: 100px;
+    height: 40px;
+    border-radius: 999px;
+
+    }
+p {
+    margin-top: 44px;
+    font-size: 22px;
+    line-height: 32px;
+}    
+
+h1 {
+    font-size: 70px;
+    line-height: 86px ;
+    letter-spacing: -1px;
+
+}
+main {
+    text-align: center;
+    margin-top: 90px;
+    box-sizing: border-box;
+    align-self: center;
+    place-content: center;
+    margin-bottom: 70px;
+}
+div {
+    box-sizing: border-box;
+    align-self: center;
+    place-content: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+input[type=Your-email] {
+    border-radius: 100px;
+    padding: 12px 20px;
+    width: 350px;
+    height: 60px;
+    box-sizing: border-box;
+    background: none;
+    border-color: white;
+    margin-right: 10px;
+    color: inherit;
+    font-size: inherit;
+    margin: 0px;
+    font-family: inherit;
+    
+
+}
+button {
+    background-color: rgb(22, 143, 143);
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+}
+button {
+    border: none;
+    outline: none;
+}
+small {
+    font-size: smaller;
+    align-self: center;
+    place-content: center;
+    text-align: center;
+    display: flex;
+    opacity: 30%;
+    padding-top: 10px;
+    
+
+
+}
